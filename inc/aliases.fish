@@ -45,6 +45,14 @@ function g -d 'Alias for (git)'
     git $argv
 end
 
+function v -d 'Vim alias'
+    if [ (count $argv) -eq 0 ]
+        nvim .
+    else
+        nvim $argv
+    end
+end
+
 ## Utils
 
 function ip -d 'get your external IP (from ifconfig.me)'
