@@ -43,8 +43,8 @@ function fish_prompt -d 'Set custom prompt'
   parse_git_branch
   echo
 
-  set_color purple
-  echo -n '¿ '
+  set_color green
+  echo -n '$ '
   set_color normal
 
 end
