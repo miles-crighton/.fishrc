@@ -43,8 +43,8 @@ function fish_prompt -d 'Set custom prompt'
   parse_git_branch
   echo
 
-  set_color green
-  echo -n '$ '
+  set_color cyan
+  echo -n 'YO '
   set_color normal
 
 end
