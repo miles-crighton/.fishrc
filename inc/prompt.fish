@@ -44,7 +44,7 @@ function fish_prompt -d 'Set custom prompt'
   echo
 
   set_color cyan
-  echo -n 'YO '
+  echo -n '$ '
   set_color normal
 
 end
