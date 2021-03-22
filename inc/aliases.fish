@@ -9,6 +9,11 @@ alias wget 'wget -c'
 
 # Functions as aliases
 
+function cd -d 'Change directory visibly'
+    builtin cd $argv
+    ls -ACFG
+end
+
 ## Navigation
 
 function ... -d 'Go up 2 dirs'
