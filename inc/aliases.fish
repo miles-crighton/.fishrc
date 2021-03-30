@@ -1,6 +1,6 @@
 # Improved commands
 alias cp 'cp -Rv'
-alias ll 'ls -alGF'
+alias ll 'exa -alGFh --git'
 alias grep 'grep'
 alias mkdir 'mkdir -pv'
 alias mv 'mv -v'
