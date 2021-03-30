@@ -1,6 +1,5 @@
 # Improved commands
 alias cp 'cp -Rv'
-alias ls 'ls -ACFG'
 alias ll 'ls -alGF'
 alias grep 'grep'
 alias mkdir 'mkdir -pv'
@@ -8,6 +7,10 @@ alias mv 'mv -v'
 alias wget 'wget -c'
 
 # Functions as aliases
+
+function ls -d 'Replace ls with exa'
+    exa $argv
+end
 
 function cd -d 'Change directory visibly'
     builtin cd $argv
@@ -50,7 +53,7 @@ function g -d 'Alias for (git)'
     git $argv
 end
 
-function v -d 'Vim alias'
+function v -d 'NeoVim alias'
     if [ (count $argv) -eq 0 ]
         nvim .
     else
