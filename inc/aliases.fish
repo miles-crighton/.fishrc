@@ -14,7 +14,7 @@ end
 
 function cd -d 'Change directory visibly'
     builtin cd $argv
-    ls -ACFG
+    exa -a -f
 end
 
 ## Navigation
