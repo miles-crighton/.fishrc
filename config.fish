@@ -11,3 +11,6 @@ command -v pipenv >/dev/null; and eval (pipenv --completion)
 
 # iTerm2 integration
 [ -e ~/.iterm2_shell_integration.fish ]; and source ~/.iterm2_shell_integration.fish
+
+# Starship Prompt (keep at end)
+starship init fish | source
