@@ -12,5 +12,8 @@ command -v pipenv >/dev/null; and eval (pipenv --completion)
 # iTerm2 integration
 [ -e ~/.iterm2_shell_integration.fish ]; and source ~/.iterm2_shell_integration.fish
 
+# Gcloud CLI integration
+[ -e /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc ]; and source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+
 # Starship Prompt (keep at end)
 starship init fish | source
