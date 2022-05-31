@@ -1,6 +1,8 @@
 # set tab title to current command & directory
 function fish_title
-  echo -n (status current-command) '-' (basename $PWD)
+  # echo (fish_prompt_pwd_dir_length=1 prompt_pwd): $argv;
+  # echo -n (basename $PWD)
+  echo "Meow"
 end
 
 function upd -d 'Run common software update commands'
