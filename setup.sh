@@ -11,4 +11,4 @@ fisher add edc/bass jethrokuan/z
 
 # download iTerm2 integration file
 curl -L https://iterm2.com/misc/fish_startup.in > ~/.iterm2_shell_integration.fish
-./copy.fish
+./universal.fish
