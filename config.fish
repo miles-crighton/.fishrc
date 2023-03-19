@@ -17,3 +17,8 @@ command -v pipenv >/dev/null; and eval (pipenv --completion)
 
 # Starship Prompt (keep at end)
 starship init fish | source
+
+# pnpm
+set -gx PNPM_HOME "/Users/milescrighton/Library/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
